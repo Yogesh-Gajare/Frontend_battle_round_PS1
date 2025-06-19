@@ -1,30 +1,50 @@
-# Frontend_battle_round_PS1
-# 🧩 Frontend Battle Round 1 - Replicate & Innovate
+# 🚀 Frontend Battle 2.0 – Round 1 Submission
 
-## 🔗 Live Link
-
-[Insert your Netlify/Vercel link here]
-
-## 🚀 Features Implemented
-
-- ✅ Fully responsive layout
-- ✅ Light/Dark mode switch
-- ✅ Loader (from drive assets)
-- ✅ Navbar with section links
-- ✅ CSS Grid + Flexbox
-- ✅ 6 feature sections
-- ✅ Subtle animations and hover effects
-
-## ⚙️ Tech Stack
-
-- HTML5
-- CSS3 (Grid + Flexbox)
-- JavaScript
-
-## 🧠 AI Tools Used
-
-- ChatGPT (OpenAI) for boilerplate guidance and optimization
+Welcome to my submission for **Round 1: Replicate & Innovate** of the Frontend Battle Hackathon.
 
 ---
 
-🎯 Designed to match the problem statement while offering clarity, maintainability and visual appeal.
+## 🔗 Live Demo
+
+🌐 [Live Site](https://your-live-link.vercel.app)
+
+---
+
+## 📁 Project Structure
+
+
+---
+
+## ✅ Features Implemented
+
+- Fully responsive layout (mobile, tablet, desktop)
+- Light/Dark Mode toggle
+- Custom preloader using `loader.mp4`
+- Navbar with anchor navigation
+- Hero section with background video
+- Feature showcase via `features-services.mp4`
+- Card layout using `cards.png`
+- Graph + Stats section from provided PNGs
+- Testimonials section using embedded video
+- Carousel switch functionality
+- Customer section video
+- Showcase work section video
+- Scroll & pop-up effect preview
+- Ripple effect section
+- Parallax animation section
+- Striking animation from custom object
+
+---
+
+## 🧠 AI Tools Used
+
+- **ChatGPT (OpenAI)** – for base layout and responsive structure guidance
+- Manual implementation and custom styling handled by developer
+
+---
+
+## 🚀 Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/frontend-battle-round1.git
