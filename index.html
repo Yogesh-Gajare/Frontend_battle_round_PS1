@@ -9,7 +9,7 @@
 <body>
   <!-- Loader -->
   <div id="loader" class="loader">
-    <video autoplay muted loop>
+    <video autoplay muted loop playsinline>
       <source src="assets/loader.mp4" type="video/mp4" />
     </video>
   </div>
@@ -36,9 +36,9 @@
     <button onclick="toggleTheme()" class="theme-toggle">🌓</button>
   </header>
 
-  <!-- Sections -->
+  <!-- Hero Section (Use Cloudinary or Local if autoplay fails with Drive) -->
   <section id="hero" class="hero">
-    <video autoplay muted loop class="hero-video">
+    <video autoplay muted loop playsinline class="hero-video">
       <source src="assets/homepage.mp4" type="video/mp4" />
     </video>
     <div class="overlay-text">
@@ -47,20 +47,79 @@
     </div>
   </section>
 
-  <section id="features" class="media-section"><video autoplay muted loop><source src="assets/features-services.mp4" type="video/mp4" /></video></section>
-  <section id="cards" class="image-section"><img src="assets/cards.png" alt="Cards" /></section>
+  <!-- Features -->
+  <section id="features" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/features-services.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Cards -->
+  <section id="cards" class="image-section">
+    <img src="assets/cards.png" alt="Cards" />
+  </section>
+
+  <!-- Stats -->
   <section id="stats" class="image-section">
     <img src="assets/graph.png" alt="Graph" />
     <img src="assets/stats.png" alt="Stats" />
   </section>
-  <section id="carousel" class="media-section"><video autoplay muted loop><source src="assets/caraousel switch.mp4" type="video/mp4" /></video></section>
-  <section id="testimonials" class="media-section"><video autoplay muted loop><source src="assets/testimonials.mp4" type="video/mp4" /></video></section>
-  <section id="customers" class="media-section"><video autoplay muted loop><source src="assets/customer-section.mp4" type="video/mp4" /></video></section>
-  <section id="showcase" class="media-section"><video autoplay muted loop><source src="assets/showcase work.mp4" type="video/mp4" /></video></section>
-  <section id="scroll" class="media-section"><video autoplay muted loop><source src="assets/scroll and pop up.mp4" type="video/mp4" /></video></section>
-  <section id="ripple" class="media-section"><video autoplay muted loop><source src="assets/ripple effect.mp4" type="video/mp4" /></video></section>
-  <section id="parallax" class="media-section"><video autoplay muted loop><source src="assets/parallax animation.mp4" type="video/mp4" /></video></section>
-  <section id="striking" class="media-section"><video autoplay muted loop><source src="assets/striking - any simple object can be used.mp4" type="video/mp4" /></video></section>
+
+  <!-- Carousel -->
+  <section id="carousel" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/caraousel switch.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/testimonials.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Customers -->
+  <section id="customers" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/customer-section.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Showcase -->
+  <section id="showcase" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/showcase work.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Scroll -->
+  <section id="scroll" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/scroll and pop up.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Ripple -->
+  <section id="ripple" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/ripple effect.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Parallax -->
+  <section id="parallax" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/parallax animation.mp4" type="video/mp4" />
+    </video>
+  </section>
+
+  <!-- Striking -->
+  <section id="striking" class="media-section">
+    <video autoplay muted loop playsinline>
+      <source src="assets/striking - any simple object can be used.mp4" type="video/mp4" />
+    </video>
+  </section>
 
   <script src="script.js"></script>
 </body>
